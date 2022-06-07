@@ -70,11 +70,11 @@
             <div class="contenedor-login">
                 <div class="usuario-login">
                     <label for="user"><h3 style="color:#1259c3 ;">Usuario</h3> </label>
-                    <input type="text" name="user" id="user">
+                    <input type="text" name="user" id="user" required minlength="2" maxlength="20">
                 </div>
                 <div class="usuario-login">
                     <label for="pass"><h3 style="color:#1259c3 ;">Contraseña</h3></label>
-                    <input type="password" name="pass" id="pass">
+                    <input type="password" name="pass" id="pass" required pattern="[A-Za-z0-9]+" maxlength="20">
                 </div>
                 <button type="submit" class="submit-login">Enviar</button>
                 <a href="/register" class="register-login">Register</a>
