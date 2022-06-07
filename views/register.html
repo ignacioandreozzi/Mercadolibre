@@ -45,7 +45,7 @@
                 <div class="lista2">
                     <ul class="cuenta" type="none">
                         <li> <a href="/register">Crear tu cuenta<i class="fas fa-address-card"></i></a> </li>
-                        <li> <a href="">Ingresar<i class="fas fa-sign-in-alt"></i></a></li>
+                        <li> <a href="/login">Ingresar<i class="fas fa-sign-in-alt"></i></a></li>
                         <li> <a href="">Mis Compras<i class="fas fa-shopping-basket"></i></a></i></li>
                     </ul>
                 </div>
@@ -70,25 +70,25 @@
         <form class="formulario" action="register.html" method="POST">
             <h3 style="color:#1259c3 ;">Datos</h3>
             <div class="Nombre-usuario-email"><label for="nombre y apellido"></label>
-                <input type="text" id="nombre-apellido" name="nombre y apellido" placeholder="Nombre y apellido">
+                <input type="text" id="nombre-apellido" name="nombre y apellido" placeholder="Nombre y apellido" required minlength="5">
                 <label for="nombre de ususario"></label>
-                <input type="text" name="nombre-usuario" id="nombre-usuario" placeholder="Nombre de usuario">
+                <input type="text" name="nombre-usuario" id="nombre-usuario" placeholder="Nombre de usuario" required minlength="2">
                 <label for="email"></label>
-                <input type="email" name="Email" id="Email" placeholder="Email">
+                <input type="email" name="Email" id="Email" placeholder="Email" required>
             </div>
             <h3 style="color:#1259c3 ;">Fecha de nacimiento</h3>
             <div class="nacimiento-domicilio"><label for="fecha de nacimiento"></label>
-                <input type="date" id="fecha" name="feha de nacimiento" placeholder="Fecha de nacimiento">
+                <input type="date" id="fecha" name="feha de nacimiento" placeholder="Fecha de nacimiento" required>
                 <label for="domicilio"></label>
-                <input type="text" id="domicilio" name="domicilio" placeholder="Domicilio">
+                <input type="text" id="domicilio" name="domicilio" placeholder="Domicilio" required minlength="4">
             </div>
             <h3 style="color:#1259c3 ;">Perfil del usuario</h3>
             <div class="contenedorusuario">
             <div class="usuario-color">
-                <input type="radio" name="perfil de usuario" id="perfil de usuario">
+                <input type="radio" name="perfil de usuario" id="perfil de usuario" required>
                 <label for="perfil de usuario">Comprador</label>
             </div>
-            <div ><input type="radio" name="perfil de usuario" id="perfil de usuario">
+            <div ><input type="radio" name="perfil de usuario" id="perfil de usuario" required>
                 <label for="perfil de usuario">Vendedor</label>
             </div>
         </div>

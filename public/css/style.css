@@ -438,6 +438,9 @@ main section article img {
    
     gap: 10px;
 }
+input:invalid{
+  color: red;
+}
 @media (min-width :361px) {
     .dyd {
         display: none;
