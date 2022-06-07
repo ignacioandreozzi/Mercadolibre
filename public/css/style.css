@@ -1,0 +1,499 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #EAC926;
+}
+
+.header-bar {
+    width: 100vw;
+    height: auto;
+}
+
+.box-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+
+.box-header .logo {
+    width: 50%;
+}
+
+.box-header .logo>img {
+    width: 100%;
+    
+}
+
+.box-header .buscar {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items:center;
+    
+}
+
+.buscar .buscar-input {
+    width: 100%;
+    height: 25px;
+    color: black;
+    font-size: small;
+    border: 1px solid #03264c;
+    border-radius: 20px;
+    display: block;
+}
+
+.buscar .lupa {
+    width: 20px;
+    height: 20px;
+    border-radius: 1px;
+    border: none;
+    background-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: -20px;
+
+}
+
+.header-bar .compracuotas {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+
+}
+
+.compracuotas .compra {
+    display: flex;
+    margin: auto;
+}
+
+.lista1 {
+    display: none;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+}
+.box-item{
+    gap: 5%;
+}
+.lista1 .info {
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.lista1 .info li a {
+    margin:  10px;
+    text-decoration: none;
+    color: black;
+}
+.lista1 .lista2 {
+
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.lista1 .lista2 .cuenta {
+    margin:  0px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+.lista1 .cuenta li a {
+    text-decoration: none;
+    color: black;
+    margin: 0 20px 0 0;
+}
+.header-bar .banner {
+    width: 100%;
+    height: auto;
+}
+
+.header-bar .banner > img {
+    max-width: 100%;
+    display: block;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.titulares {
+    font-size: 24px;
+    width: 100%;
+    text-align: left;
+}
+
+.precio {
+    font-size: 18px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.dyc {
+    font-size: 16px;
+    color: #39b54a;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.dyd {
+    font-size: 16px;
+}
+
+.texto {
+    font-size: 14px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.centrado {
+    text-align: center;
+
+}
+
+.copy {
+    font-size: 12px;
+   color:  #1259c3;
+   font-weight: 1000;
+}
+
+
+
+.lista {
+    padding-left: 5px;
+
+
+}
+
+.burger-menu {
+    text-align: center;
+
+}
+
+.footer i {
+    color: #03264c
+}
+
+#menu {
+    margin: 0 auto;
+    color: white;
+    background-color: #03264c;
+    border-radius: 6px;
+    border: #03264c;
+    padding: 12px;
+    margin-bottom: 5px;
+}
+
+
+#chacho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+
+
+
+hr {
+    border-width: 5px;
+    width: 50%;
+    border-style: dotted none none;
+    border-color: grey
+}
+
+.fa-shipping-fast {
+    color: #39b54a;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+
+
+.main-box .box-productos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 5% ;
+}
+
+main section article img {
+    width: 100%;
+}
+
+.box-productos .articulo {
+    background-color: #ffffff;
+    margin: 10px auto;
+    width: 90%;
+}
+
+.box-productos #imagen-size {
+    max-width: 100%;
+}
+
+.box-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.articulo-detail {
+    border-top: solid 1px #ebebeb;
+    background-color: white;
+    padding: 15px;
+    margin: 0;
+    position: relative;
+    text-align: left;
+}
+
+.articulo-detail>p {
+    margin: 5px 0 0 0;
+}
+
+.articulo-detail>h3 {
+    margin-top: 15px;
+    font-weight: 100;
+}
+
+/* register*/
+.registermain .formulario{
+
+    width: 100%;
+    padding: 50px 25px;
+    background-color: white;
+} .formulario{
+    display: flex;
+    flex-direction: column;
+   margin: auto;
+   gap: 5px;
+   padding-top: 15px;
+  
+}
+.Nombre-usuario-email input{
+  height: 35px;
+    border-radius: 3px;
+    border: 1px solid #03264c;
+    padding-left: 1%;
+   
+}
+.perfil-usuario{
+    display: flex; 
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;
+    gap: 30px;
+}
+.Nombre-usuario-email{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   gap: 20PX;
+  padding-bottom: 20px;
+}
+#nombre-apellido  {
+    display: flex;
+}
+#nombre-usuario{
+    display: flex;
+}
+#Email{
+    display: flex;
+}
+.nacimiento-domicilio{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    gap: 20px;
+    padding-top: 4px;
+}
+
+
+
+.p-register{
+    display: flex;
+}
+.contenedor-check-input{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 35px;
+    padding-top: 15px;
+}
+.check-input{
+    display: flex;
+    gap: 20px;
+    color: #03264c;
+ 
+    
+    
+}
+
+
+#interes{
+    display: flex;
+    align-items: center;
+   
+  
+}
+.contenedorusuario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.nacimiento-domicilio input{
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid #03264c;
+    padding-left: 1%;
+}
+.submit-register{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color:#1259c3;
+    color: white;
+
+}
+.crearcuenta{
+  
+    width: 100%;
+}
+.usuario-color{
+   color: #03264c; 
+}
+.contenedor-login{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.usuario-login{
+    display: flex;
+    flex-direction: column;
+    
+}
+.mainlogin .formulariologin{
+    width: 100%;
+    padding: 50px 25px;
+    background-color: white;
+}
+.submit-login{
+    width: 100%;
+    height: 40px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 3px;
+    background-color:#1259c3;
+    color: white;
+   
+}
+.register-login{
+    
+    display: flex;
+    height: 40px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 5px;
+    color: #1259c3;
+    font-weight: 1000;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+.usuario-login input{
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid #03264c;
+    padding-left: 1%;
+    
+}
+.usuario-login{
+   
+    gap: 10px;
+}
+@media (min-width :361px) {
+    .dyd {
+        display: none;
+    }
+
+    ul {
+        display: none;
+    }
+
+
+    
+}
+
+
+@media (min-width : 769px) {
+    .texto {
+        font-size: 20px;
+        text-align: center;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .burger-menu {
+        display: none;
+    }
+.box-productos .articulo {
+        width: 45%;
+    }
+    
+
+    .lista1 {
+        display: flex;
+    }
+
+    .box-header .logo {
+        width: 30%;
+    }
+
+    .box-header .logo>img {
+        width: 100%;
+    }
+
+    .box-header .buscar {
+        width: 30%;
+    }
+
+    .header-bar .compracuotas {
+        width: 30%;
+    }
+    .box-productos .articulo {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+}
+@media (min-width : 1284px){
+
+
+.box-productos .articulo {
+        width: 24%;
+    }
+}
