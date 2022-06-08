@@ -28,15 +28,15 @@ header {
 
 .box-header .logo>img {
     width: 100%;
-    
+
 }
 
 .box-header .buscar {
     display: flex;
     width: 50%;
     justify-content: center;
-    align-items:center;
-    
+    align-items: center;
+
 }
 
 .buscar .buscar-input {
@@ -79,9 +79,11 @@ header {
     justify-content: space-between;
     margin: 15px;
 }
-.box-item{
+
+.box-item {
     gap: 5%;
 }
+
 .lista1 .info {
 
     list-style: none;
@@ -89,11 +91,13 @@ header {
     align-items: center;
     justify-content: space-evenly;
 }
+
 .lista1 .info li a {
-    margin:  10px;
+    margin: 10px;
     text-decoration: none;
     color: black;
 }
+
 .lista1 .lista2 {
 
     list-style: none;
@@ -103,25 +107,28 @@ header {
 }
 
 .lista1 .lista2 .cuenta {
-    margin:  0px;
+    margin: 0px;
     display: flex;
     align-content: center;
     align-items: center;
 }
+
 .lista1 .cuenta li a {
     text-decoration: none;
     color: black;
     margin: 0 20px 0 0;
 }
+
 .header-bar .banner {
     width: 100%;
     height: auto;
 }
 
-.header-bar .banner > img {
+.header-bar .banner>img {
     max-width: 100%;
     display: block;
 }
+
 body {
     font-family: 'Roboto', sans-serif;
 
@@ -149,6 +156,7 @@ body {
 
 .dyd {
     font-size: 16px;
+    display: none;
 }
 
 .texto {
@@ -165,8 +173,8 @@ body {
 
 .copy {
     font-size: 12px;
-   color:  #1259c3;
-   font-weight: 1000;
+    color: #1259c3;
+    font-weight: 1000;
 }
 
 
@@ -235,7 +243,7 @@ hr {
     display: flex;
     flex-wrap: wrap;
     width: 90%;
-    margin: 5% ;
+    margin: 5%;
 }
 
 main section article img {
@@ -265,6 +273,7 @@ main section article img {
     margin: 0;
     position: relative;
     text-align: left;
+
 }
 
 .articulo-detail>p {
@@ -277,50 +286,59 @@ main section article img {
 }
 
 /* register*/
-.registermain .formulario{
+.registermain .formulario {
 
     width: 100%;
     padding: 50px 25px;
     background-color: white;
-} .formulario{
+}
+
+.formulario {
     display: flex;
     flex-direction: column;
-   margin: auto;
-   gap: 5px;
-   padding-top: 15px;
-  
+    margin: auto;
+    gap: 5px;
+    padding-top: 15px;
+
 }
-.Nombre-usuario-email input{
-  height: 35px;
+
+.Nombre-usuario-email input {
+    height: 35px;
     border-radius: 3px;
     border: 1px solid #03264c;
     padding-left: 1%;
-   
+
 }
-.perfil-usuario{
-    display: flex; 
+
+.perfil-usuario {
+    display: flex;
     flex-direction: row;
     margin: auto;
     justify-content: space-between;
     gap: 30px;
 }
-.Nombre-usuario-email{
+
+.Nombre-usuario-email {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-   gap: 20PX;
-  padding-bottom: 20px;
+    gap: 20PX;
+    padding-bottom: 20px;
 }
-#nombre-apellido  {
+
+#nombre-apellido {
     display: flex;
 }
-#nombre-usuario{
+
+#nombre-usuario {
     display: flex;
 }
-#Email{
+
+#Email {
     display: flex;
 }
-.nacimiento-domicilio{
+
+.nacimiento-domicilio {
     display: flex;
     flex-direction: column;
     padding-bottom: 20px;
@@ -330,33 +348,36 @@ main section article img {
 
 
 
-.p-register{
+.p-register {
     display: flex;
 }
-.contenedor-check-input{
+
+.contenedor-check-input {
     display: flex;
     flex-direction: column;
     margin: auto;
     gap: 35px;
     padding-top: 15px;
 }
-.check-input{
+
+.check-input {
     display: flex;
     gap: 20px;
     color: #03264c;
- 
-    
-    
+
+
+
 }
 
 
-#interes{
+#interes {
     display: flex;
     align-items: center;
-   
-  
+
+
 }
-.contenedorusuario{
+
+.contenedorusuario {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -364,56 +385,65 @@ main section article img {
     padding-top: 15px;
     padding-bottom: 20px;
 }
-.nacimiento-domicilio input{
+
+.nacimiento-domicilio input {
     height: 35px;
     border-radius: 3px;
     border: 1px solid #03264c;
     padding-left: 1%;
 }
-.submit-register{
+
+.submit-register {
     width: 100%;
     height: 40px;
     margin-top: 30px;
     border: none;
     border-radius: 3px;
-    background-color:#1259c3;
+    background-color: #1259c3;
     color: white;
 
 }
-.crearcuenta{
-  
+
+.crearcuenta {
+
     width: 100%;
 }
-.usuario-color{
-   color: #03264c; 
+
+.usuario-color {
+    color: #03264c;
 }
-.contenedor-login{
+
+.contenedor-login {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.usuario-login{
+
+.usuario-login {
     display: flex;
     flex-direction: column;
-    
+
 }
-.mainlogin .formulariologin{
+
+.mainlogin .formulariologin {
     width: 100%;
     padding: 50px 25px;
     background-color: white;
 }
-.submit-login{
+
+.submit-login {
     width: 100%;
     height: 40px;
     margin-top: 30px;
     border: none;
     border-radius: 3px;
-    background-color:#1259c3;
+    background-color: #1259c3;
     color: white;
-   
+
 }
-.register-login{
-    
+
+.register-login {
+
     display: flex;
     height: 40px;
     text-decoration: none;
@@ -425,22 +455,26 @@ main section article img {
     align-content: center;
     justify-content: center;
     align-items: center;
-   
+
 }
-.usuario-login input{
+
+.usuario-login input {
     height: 35px;
     border-radius: 3px;
     border: 1px solid #03264c;
     padding-left: 1%;
-    
+
 }
-.usuario-login{
-   
+
+.usuario-login {
+
     gap: 10px;
 }
-input:invalid{
-  color: red;
+
+input:invalid {
+    color: red;
 }
+
 @media (min-width :361px) {
     .dyd {
         display: none;
@@ -451,7 +485,7 @@ input:invalid{
     }
 
 
-    
+
 }
 
 
@@ -462,13 +496,15 @@ input:invalid{
         margin-left: 25%;
         margin-right: 25%;
     }
+
     .burger-menu {
         display: none;
     }
-.box-productos .articulo {
+
+    .box-productos .articulo {
         width: 45%;
     }
-    
+
 
     .lista1 {
         display: flex;
@@ -489,14 +525,28 @@ input:invalid{
     .header-bar .compracuotas {
         width: 30%;
     }
-    .box-productos .articulo {
+
+     .articulo:hover {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
+.articulo .fa-shipping-fast {
+     transition: 650ms;
 }
-@media (min-width : 1284px){
+    .articulo:hover .dyd {
+        display: block;
+    }
+
+    .fa-shipping-fast:hover{
+       
+        transform: rotate(270deg);
+    }
+}
+
+@media (min-width : 1284px) {
 
 
-.box-productos .articulo {
+    .box-productos .articulo {
         width: 24%;
     }
+
 }
