@@ -125,7 +125,7 @@ header {
 }
 
 .header-bar .banner>img {
-    max-width: 100%;
+    width: 100%;
     display: block;
 }
 
@@ -285,9 +285,8 @@ main section article img {
     margin-top: 15px;
     font-weight: 100;
 }
-#banner{
-    width: 100%;
-}
+
+
 /* register*/
 .registermain .formulario {
 
@@ -569,6 +568,7 @@ input:invalid {
         display: flex;
         flex-direction: row;
         gap: 1%;
+        justify-content: space-around;
     }
     #chacho:hover{
        color: #39b54a;
