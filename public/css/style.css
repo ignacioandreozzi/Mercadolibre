@@ -285,7 +285,9 @@ main section article img {
     margin-top: 15px;
     font-weight: 100;
 }
-
+#banner{
+    width: 100%;
+}
 /* register*/
 .registermain .formulario {
 
