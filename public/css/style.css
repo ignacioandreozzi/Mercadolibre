@@ -292,7 +292,7 @@ main section article img {
 .registermain .formulario {
 
     width: 100%;
-    padding: 50px 25px;
+    padding: 50px 15%;
     background-color: white;
 }
 
@@ -420,6 +420,7 @@ main section article img {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    background-color: aliceblue;
 }
 
 .usuario-login {
@@ -430,7 +431,7 @@ main section article img {
 
 .mainlogin .formulariologin {
     width: 100%;
-    padding: 50px 25px;
+    padding: 50px 15%;
     background-color: white;
 }
 
@@ -574,6 +575,20 @@ input:invalid {
     #chacho:hover{
        color: #39b54a;
 
+    }
+    .registermain .formulario {
+
+        width: 100%;
+        padding: 50px 15%;
+        background-color: white;
+          
+        
+
+    }
+    .mainlogin .formulariologin {
+        width: 100%;
+        padding: 50px 15%;
+        background-color: white;
     }
 }
 
